@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "removeComments": false,
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": true
+    },
+    "filesGlob": [
+        "mongoexplorer/**/*.ts"
+    ],
+    "files": [
+        "mongoexplorer/playlist/PlaylistBackend.ts",
+        "mongoexplorer/playlist/PlaylistComponents.ts",
+        "mongoexplorer/search/SearchComponents.ts",
+        "mongoexplorer/search/MEBackend.ts",
+        "mongoexplorer/mongoexplorer.ts"
+    ],
+    "exclude": []
+}
